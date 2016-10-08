@@ -1,5 +1,5 @@
 from itertools import groupby
-# input must be separated values with comma and whitespaces
+# input must be separated values with comma and whitespaces, like this: h, t, h, h, h, t
 string = input("Play-->")
 lst = list(string.split(', '))
 print(lst)
